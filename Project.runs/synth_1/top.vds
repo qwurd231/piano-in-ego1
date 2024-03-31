@@ -1,0 +1,646 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jan  2 01:06:09 2024
+# Process ID: 15868
+# Current directory: E:/digital_logic/2023Fall/Project/Project.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: E:/digital_logic/2023Fall/Project/Project.runs/synth_1/top.vds
+# Journal file: E:/digital_logic/2023Fall/Project/Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7788 
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module constants [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/constants.v:23]
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module constants [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/constants.v:23]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 343.992 ; gain = 113.520
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-638] synthesizing module 'tub_mode' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/tub_mode.v:23]
+INFO: [Synth 8-226] default block is never used [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/tub_mode.v:29]
+INFO: [Synth 8-256] done synthesizing module 'tub_mode' (1#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/tub_mode.v:23]
+INFO: [Synth 8-638] synthesizing module 'buzzer' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/buzzer.v:23]
+INFO: [Synth 8-256] done synthesizing module 'buzzer' (2#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/buzzer.v:23]
+INFO: [Synth 8-638] synthesizing module 'free_mode' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/free_mode.v:23]
+INFO: [Synth 8-256] done synthesizing module 'free_mode' (3#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/free_mode.v:23]
+INFO: [Synth 8-638] synthesizing module 'autoplay_mode' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:23]
+WARNING: [Synth 8-3848] Net song[0][170] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][169] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][168] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][167] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][166] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][165] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][164] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][163] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][162] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][161] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][160] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][159] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][158] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][157] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][156] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][155] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][154] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][153] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][152] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][151] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][150] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][149] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][148] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][147] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][146] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][145] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][144] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][143] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][142] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][141] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][140] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][139] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][138] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][137] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][136] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][135] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][134] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][133] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][132] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][131] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][130] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][129] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][128] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][127] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][126] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][125] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][124] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][123] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][122] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][121] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][120] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][119] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][118] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][117] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][116] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][115] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][114] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][113] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][112] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][111] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][110] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][109] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][108] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][107] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][106] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][105] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][104] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][103] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][102] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][101] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][100] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][99] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][98] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][97] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][96] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][95] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][94] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][93] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][92] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][91] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][90] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][89] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][88] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][87] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][86] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][85] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][84] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][83] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][82] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][81] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][80] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][79] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][78] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][77] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][76] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][75] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][74] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][73] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][72] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+WARNING: [Synth 8-3848] Net song[0][71] in module/entity autoplay_mode does not have driver. [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:35]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'autoplay_mode' (4#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:23]
+INFO: [Synth 8-638] synthesizing module 'learning_mod' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:3]
+INFO: [Synth 8-638] synthesizing module 'Debounce' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/Debounce.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Debounce' (5#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/Debounce.v:23]
+INFO: [Synth 8-638] synthesizing module 'music' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/music.v:3]
+	Parameter k bound to: 17171461 - type: integer 
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'music' (6#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/music.v:3]
+INFO: [Synth 8-638] synthesizing module 'led_encode' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/led_encode.v:23]
+INFO: [Synth 8-256] done synthesizing module 'led_encode' (7#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/led_encode.v:23]
+INFO: [Synth 8-638] synthesizing module 'key_encode' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/key_encoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'key_encode' (8#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/key_encoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'learning_mod' (9#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:3]
+WARNING: [Synth 8-689] width (5) of port connection 'buzzer_out' does not match port width (8) of module 'learning_mod' [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/top.v:87]
+WARNING: [Synth 8-350] instance 'u_learn' of module 'learning_mod' requires 9 connections, but only 8 given [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/top.v:86]
+INFO: [Synth 8-256] done synthesizing module 'top' (10#1) [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3331] design music has unconnected port music_number[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 381.195 ; gain = 150.723
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 381.195 ; gain = 150.723
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/digital_logic/2023Fall/Project/Project.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [E:/digital_logic/2023Fall/Project/Project.srcs/constrs_1/new/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/digital_logic/2023Fall/Project/Project.srcs/constrs_1/new/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 717.859 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/buzzer.v:81]
+INFO: [Synth 8-5546] ROM "note" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element t_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:74]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:73]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/Debounce.v:35]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'learning_mod'
+INFO: [Synth 8-5544] ROM "music_num" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element music_num_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:26]
+WARNING: [Synth 8-6014] Unused sequential element note_num_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:26]
+WARNING: [Synth 8-6014] Unused sequential element mistake_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:77]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                             0000
+                 iSTATE0 |                              001 |                             0001
+                 iSTATE3 |                              010 |                             0010
+                 iSTATE4 |                              011 |                             0111
+                 iSTATE5 |                              100 |                             0110
+*
+                 iSTATE1 |                              101 |                             0011
+                 iSTATE2 |                              110 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'learning_mod'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                 4x26  Multipliers := 1     
++---Muxes : 
+	   8 Input     26 Bit        Muxes := 1     
+	   3 Input     20 Bit        Muxes := 4     
+	   3 Input     19 Bit        Muxes := 3     
+	   2 Input     18 Bit        Muxes := 4     
+	   2 Input     17 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 129   
+	   8 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   8 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+Module tub_mode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+Module buzzer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     20 Bit        Muxes := 4     
+	   3 Input     19 Bit        Muxes := 3     
+	   2 Input     18 Bit        Muxes := 4     
+	   2 Input     17 Bit        Muxes := 3     
+Module free_mode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+Module autoplay_mode 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Multipliers : 
+	                 4x26  Multipliers := 1     
++---Muxes : 
+	   8 Input     26 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+Module Debounce 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module music 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 128   
+	   2 Input      7 Bit        Muxes := 1     
+Module led_encode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      7 Bit        Muxes := 1     
+Module key_encode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module learning_mod 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+	   8 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "notes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/buzzer.v:81]
+WARNING: [Synth 8-6014] Unused sequential element t_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:74]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/autoplay_mode.v:73]
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element debouncer/count_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/Debounce.v:35]
+WARNING: [Synth 8-6014] Unused sequential element music_num_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:26]
+WARNING: [Synth 8-6014] Unused sequential element note_num_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:26]
+WARNING: [Synth 8-6014] Unused sequential element mistake_reg was removed.  [E:/digital_logic/2023Fall/Project/Project.srcs/sources_1/new/learning_mod.v:77]
+WARNING: [Synth 8-3917] design top has port display driven by constant 1
+WARNING: [Synth 8-3917] design top has port tub_mode[6] driven by constant 1
+WARNING: [Synth 8-3917] design top has port tub_mode[0] driven by constant 0
+WARNING: [Synth 8-3331] design music has unconnected port music_number[1]
+INFO: [Synth 8-3886] merging instance 'u_auto/info_reg[1]' (FDR) to 'u_auto/info_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_auto/info_reg[2]' (FDR) to 'u_auto/info_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_auto/info_reg[0]' (FDR) to 'u_auto/info_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_auto/info_reg[6]' (FDR) to 'u_auto/info_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_auto/info_reg[7]' (FDS) to 'u_auto/info_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_auto/info_reg[4]' (FDR) to 'u_auto/info_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_auto/info_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[0]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[1]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[2]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[3]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[4]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[5]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_auto/key_reg[1]' (FDRE) to 'u_auto/key_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_auto/key_reg[2]' (FDRE) to 'u_auto/key_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/note_led_reg[6]' (FDE) to 'u_learn/range_led_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_learn/range_led_reg[0]' (FDE) to 'u_learn/range_led_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_learn/range_led_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/counter_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/info_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/info_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[20]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[21]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[22]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[23]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[24]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[25]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[26]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[27]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[28]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[29]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[30]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/t_reg[31]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_auto/key_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/note_num_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/temp_out_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/temp_out_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/temp_out_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/mistake_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (u_learn/range_led_reg[1]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 717.859 ; gain = 487.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    19|
+|3     |LUT1   |     3|
+|4     |LUT2   |    11|
+|5     |LUT3   |    21|
+|6     |LUT4   |    27|
+|7     |LUT5   |    33|
+|8     |LUT6   |    26|
+|9     |FDRE   |    71|
+|10    |FDSE   |     1|
+|11    |IBUF   |    17|
+|12    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+-------------+------+
+|      |Instance      |Module       |Cells |
++------+--------------+-------------+------+
+|1     |top           |             |   251|
+|2     |  buzz        |buzzer       |    68|
+|3     |  u_learn     |learning_mod |   131|
+|4     |    debouncer |Debounce     |    53|
++------+--------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 84 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 738.703 ; gain = 171.566
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 738.703 ; gain = 508.230
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+73 Infos, 188 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 738.703 ; gain = 512.695
+INFO: [Common 17-1381] The checkpoint 'E:/digital_logic/2023Fall/Project/Project.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 738.703 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  2 01:06:39 2024...
